@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
             elif args[0].lower() == "markdownhelp":
@@ -415,7 +415,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/JARVIS_V_SUPPORT"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/M2H_network"
                         ),
                     ],
                     [
