@@ -38,7 +38,7 @@ async def send_alive_message(client, message: Message):
     await asyncio.sleep(0.1)
     await accha.edit("ᴄᴏʀᴇ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...")
     await asyncio.sleep(0.1)
-    await accha.edit("ᴊᴀʀᴠɪs 🔮 ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("sᴜʀᴠɪᴠɪɴɢ...")
     await accha.delete()
     await asyncio.sleep(0.3)
     umm = await message.reply_sticker("CAACAgEAAx0Cfbdm0QACATVmC-2FuLpqFS0KfIHldXuM8eTtjwACsQQAAsW0uURrdxdu_gmoNh4E")
@@ -48,7 +48,7 @@ async def send_alive_message(client, message: Message):
         video=video_file_path,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
 ━━━━━━━━━━━━━━━━━━━
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](https://t.me/JARVIS_V2)
+» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](https://t.me/Sawn02)
 
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 
