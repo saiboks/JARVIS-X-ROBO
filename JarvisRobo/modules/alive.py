@@ -10,7 +10,7 @@ from telethon import __version__ as tver
 from JarvisRobo import SUPPORT_CHAT, pbot, BOT_USERNAME, OWNER_ID, BOT_NAME, START_IMG
 
 # Video URL
-VIDEO_URL = "https://graph.org/file/c3b6db252f9b089a7d14a.mp4"
+VIDEO_URL = "https://telegra.ph/file/9c34a50f95ff6bb376f89.mp4"
 
 # Inline keyboard markup
 Jarvis = [
