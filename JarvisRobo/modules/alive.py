@@ -15,12 +15,8 @@ VIDEO_URL = "https://graph.org/file/c3b6db252f9b089a7d14a.mp4"
 # Inline keyboard markup
 Jarvis = [
     [
-        InlineKeyboardButton(text="ᴊᴀʀᴠɪs", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/JARVIS_V_SUPPORT"),
-    ],
-    [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ➕",
+            text="ᴀᴅᴅ ᴍᴇ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
