@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgEAAx0Cfbdm0QACATNmC-1-nl8Unb8cLRS-8qfLllewvwACPwMAAtKbsEQsyzfIkYLVGx4E"
+                "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
             )
             usr = update.effective_user
             lol = update.effective_message.reply_text(
