@@ -213,8 +213,7 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rᴜʟᴇs"].send_rules(update, args[0], from_pm=True)
 
         else:
-            first_name = 
-            lol =
+            first_name =
 update.effective_user.first_name
             update.effective_message.reply_sticker(
                 "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
