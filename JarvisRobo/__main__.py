@@ -218,7 +218,6 @@ update.effective_user.first_name
             update.effective_message.reply_sticker(
                 "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
             )
-            lol.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
