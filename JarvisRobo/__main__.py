@@ -471,9 +471,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
              [
-                 InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/doraemon890/JARVIS-X-ROBO")
+                 InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://t.me/heaven_bot_support")
              ],
-                 [InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data="source_back")]
+                 [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="source_back")]
                 ]
             ),
         )
@@ -547,7 +547,7 @@ def get_help(update: Update, context: CallbackContext):
             text,
             InlineKeyboardMarkup(
                [
-                    [InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data="help_back")]
+                    [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]
                 ]            
             ),
         )
