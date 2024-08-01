@@ -221,8 +221,8 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(3.5)
-            lol.edit_text("https://graph.org/file/b7878a7f532d35b812e8f.mp4")
+            time.sleep(1.25)
+            lol.edit_text("😘")
             time.sleep(1.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.5)
