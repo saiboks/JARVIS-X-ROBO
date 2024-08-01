@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(1.25)
-            lol.edit_text("💻")
+            lol.edit_text("😘")
             time.sleep(1.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.5)
@@ -412,7 +412,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/heaven_bot_support"
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/M2H_network"
@@ -423,7 +423,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/doraemon890",
+                            text="ɢɪᴛʜᴜʙ", url="https://graph.org/file/1e13e1135f1ce35271d5a.jpg",
                         ),
                     ],
                     [
