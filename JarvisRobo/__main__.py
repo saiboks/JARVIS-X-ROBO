@@ -217,16 +217,6 @@ def start(update: Update, context: CallbackContext):
             update.effective_message.reply_sticker(
                 "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
             )
-            usr = update.effective_user
-            lol = update.effective_message.reply_text(
-                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
-            )
-            time.sleep(1.25)
-            lol.edit_text("😘")
-            time.sleep(1.0)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
-            time.sleep(0.5)
-            lol.delete()
             
             update.effective_message.reply_photo(START_IMG, PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME, sql.num_users(), sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(buttons),
