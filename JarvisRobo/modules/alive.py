@@ -34,7 +34,7 @@ async def send_alive_message(client, message: Message):
     await message.delete()
     accha = await message.reply("📲")
     await asyncio.sleep(0.2)
-    await accha.edit("Jᴀʀᴠɪs ᴄᴀᴄʜɪɴɢ ᴅᴀᴛᴀ..")
+    await accha.edit("ғᴀʟᴄᴏ ᴄᴀᴄʜɪɴɢ ᴅᴀᴛᴀ..")
     await asyncio.sleep(0.1)
     await accha.edit("ᴄᴏʀᴇ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...")
     await asyncio.sleep(0.1)
