@@ -213,17 +213,16 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rᴜʟᴇs"].send_rules(update, args[0], from_pm=True)
 
         else:
-            first_name =
-update.effective_user.first_name
+            first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
+                "CAACAgEAAx0Cfbdm0QACATNmC-1-nl8Unb8cLRS-8qfLllewvwACPwMAAtKbsEQsyzfIkYLVGx4E"
             )
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(1.25)
-            lol.edit_text("😘")
+            time.sleep(3.5)
+            lol.edit_text("https://graph.org/file/b7878a7f532d35b812e8f.mp4")
             time.sleep(1.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.5)
