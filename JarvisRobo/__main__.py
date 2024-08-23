@@ -214,8 +214,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_sticker(
-                "https://graph.org/file/b7878a7f532d35b812e8f.mp4"
+            update.effective_message.reply_sticker("[Nex Surviving...](https://graph.org/file/b7878a7f532d35b812e8f.mp4)""
             )
             
             update.effective_message.reply_photo(START_IMG, PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME, sql.num_users(), sql.num_chats()),
